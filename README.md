@@ -1,61 +1,141 @@
-# To-Do List App
+# 📝 To-Do List App
 
-A desktop To-Do List application built with **Java Swing**. Manage tasks with a clean, beginner-friendly GUI.
+A simple and user-friendly **To-Do List desktop application** built using **Java Swing**. The application helps users organize daily tasks, track completion status, manage deadlines, and improve productivity through an intuitive graphical interface.
 
-## Features
+## ✨ Features
 
-- Add, edit, and remove tasks
-- Mark tasks as complete with checkboxes
-- Set optional due dates (DD-MM-YYYY format)
-- Search tasks by name
-- Sort by name, due date, or completion status
-- Overdue tasks highlighted in red
+* ➕ Add new tasks
+* ✏️ Edit existing tasks
+* 🗑️ Remove tasks
+* ✅ Mark tasks as completed using checkboxes
+* 📅 Assign optional due dates
+* 🔍 Search tasks instantly
+* 🔄 Sort tasks by:
 
-## Requirements
+  * Name
+  * Due Date
+  * Completion Status
+* 🚨 Automatically highlight overdue tasks
+* 🎨 Clean and beginner-friendly graphical user interface
 
-- Java JDK 8 or higher
+## 🛠️ Technologies Used
 
-## How to Run
+* Java
+* Java Swing (GUI)
+* AWT
+* Object-Oriented Programming (OOP)
 
-1. Open a terminal or command prompt.
-2. Go to the source folder:
+## 📋 Requirements
 
-   ```cmd
-   cd ToDoListApp/src
-   ```
+Before running the project, ensure you have:
 
-3. Compile the app:
+* Java JDK 8 or higher
+* Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) or Command Prompt/Terminal
 
-   ```cmd
-   javac ToDoListApp.java
-   ```
+Verify installation:
 
-4. Run it:
-
-   ```cmd
-   java ToDoListApp
-   ```
-
-## Project Structure
-
-```
-Java project/
-├── README.md
-├── ToDoListApp/
-│   ├── README.md
-│   └── src/
-│       └── ToDoListApp.java
+```bash
+java -version
+javac -version
 ```
 
-## Usage
+## 🚀 Getting Started
 
-- **Add task:** Type in the input field and click **Add** (or press Enter).
-- **Complete task:** Click the checkbox next to a task.
-- **Edit task:** Double-click a task.
-- **Remove task:** Select a task and click **Remove**.
-- **Search:** Use the search box to filter tasks.
-- **Sort:** Use the dropdown to sort by Name, Due, or Done.
+### Clone the Repository
 
-## Author
+```bash
+git clone <repository-url>
+cd ToDoListApp
+```
 
-Built as a Java learning project.
+### Compile the Application
+
+Navigate to the source directory and compile:
+
+```bash
+javac ToDoListApp.java
+```
+
+### Run the Application
+
+```bash
+java ToDoListApp
+```
+
+## 📂 Project Structure
+
+```text
+ToDoListApp/
+│
+├── src/
+│   ├── ToDoListApp.java
+│   ├── *.class
+│   └── background.jpg.jpg
+│
+└── README.md
+```
+
+## 📖 How to Use
+
+### Add a Task
+
+1. Enter a task name in the input field.
+2. Click **Add** or press **Enter**.
+
+### Edit a Task
+
+1. Double-click the task.
+2. Update the details.
+3. Save the changes.
+
+### Complete a Task
+
+* Click the checkbox beside a task to mark it as completed.
+
+### Remove a Task
+
+1. Select the task.
+2. Click **Remove**.
+
+### Search Tasks
+
+* Use the search box to quickly find tasks by name.
+
+### Sort Tasks
+
+* Choose a sorting option from the dropdown menu:
+
+  * Name
+  * Due Date
+  * Completion Status
+
+## 🎯 Learning Objectives
+
+This project demonstrates:
+
+* Java Swing GUI development
+* Event-driven programming
+* Object-Oriented Programming concepts
+* Data management using collections
+* User interface design principles
+
+## 🔮 Future Improvements
+
+* Save tasks to a file or database
+* Task categories and priorities
+* Dark mode support
+* Notifications and reminders
+* Export tasks to PDF or CSV
+* Cloud synchronization
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
+
+## 📜 License
+
+This project is intended for educational and learning purposes. You may modify and use it freely.
+
+## 👩‍💻 Author
+
+Developed as a Java Swing learning project to practice GUI development and task management application design.
