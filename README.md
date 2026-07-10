@@ -12,9 +12,9 @@ A simple and user-friendly **To-Do List desktop application** built using **Java
 * 🔍 Search tasks instantly
 * 🔄 Sort tasks by:
 
-  * Name
-  * Due Date
-  * Completion Status
+* Name
+* Due Date
+* Completion Status
 * 🚨 Automatically highlight overdue tasks
 * 🎨 Clean and beginner-friendly graphical user interface
 
