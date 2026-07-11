@@ -1,6 +1,6 @@
 # 📝 To-Do List App
 
-A simple and user-friendly **To-Do List desktop application** built using **Java Swing**. The application helps users organize daily tasks, track completion status, manage deadlines, and improve productivity through an intuitive graphical interface.
+A simple and user-friendly **To-Do List desktop application** built using **Java Swing**. The application helps users organize daily tasks, track completion status, manage deadlines, and improve productivity through an interactive graphical interface.
 
 ## ✨ Features
 
@@ -30,7 +30,7 @@ A simple and user-friendly **To-Do List desktop application** built using **Java
 Before running the project, ensure you have:
 
 * Java JDK 8 or higher
-* Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) or Command Prompt/Terminal
+* Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans, VS Code) or Command Prompt/Terminal
 
 Verify installation:
 
